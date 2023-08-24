@@ -9,7 +9,7 @@ Our NAM weather data set is five years of highly comprehensive weather data spre
 Following is a summary of each problem and their runtimes.
 
 
-### Strangely Snowyl
+### Strangely Snowy
 
 Runtime: 14 min
 
@@ -122,15 +122,6 @@ Summary:
 Insights: Pretty hard to do a complex calculation like covariance and correlation coefficient in an RDD. I used numpy arrays in RDD's to get distributed multi-dimensional data, but I'm sure something like a couple aggregateByKey() calls would perform better because Spark can likely distribute such problems better. It seems vegetation is almost globally highly positively correlated with rise in temperature, omitting over-water regions and a few negative correlated points. Precipitation is also globally highly positively correlated with temperature. Surprisingly, humidity is slightly negatively correlated.
 
 
-### Weather Station
-
-Not included.
-
-
-### Prediction / Classification
-
-Not included.
-
 
 
 ## Self-Guided Analysis: Books
@@ -173,12 +164,3 @@ Summary:
 - Do some numpy magic to calculate means and standard deviations for features across all books
 - Assign books a sophistication score based on their features - mean / std dev
 - Output the books with the highest scores
-
-
-### Make ChatGPT
-
-Runtime: Unfinished
-
-Problem: Make a decent language model.
-
-Insights: I've spent days and made 10 different notebooks trying to get Tensorflow to work with these books, but can't seem to shape the data right. Oh well. Current iteration is mostly a ripoff of a Google TF tutorial, please don't sue me xD
