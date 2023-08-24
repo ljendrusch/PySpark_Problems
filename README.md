@@ -1,4 +1,4 @@
-# Logan's Project 3: Spark Mania
+# Spark Mania
 
 ### Base problems data description and insights
 
